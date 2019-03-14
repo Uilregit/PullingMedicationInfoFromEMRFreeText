@@ -1,0 +1,5103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MMOs PUBLIC "-//NLM//DTD MetaMap Machine Output//EN" "http://metamap.nlm.nih.gov/DTD/MMOtoXML_v4.dtd">
+<MMOs>
+ <MMO>
+  <CmdLine>
+   <Command>metamap12.BINARY.Linux -L 2011 -Z 2011AA -V USAbase --word_sense_disambiguation --prefer_multiple_concepts --XMLf /home/lizhou/NICTA/NewTestSet/reference-original/test90.txt /home/lizhou/NICTA/NewTestSet/metamapped/test90.txt.metamapped.xml</Command>
+   <Options Count="8">
+    <Option>
+     <OptName>lexicon_year</OptName>
+     <OptValue>2011</OptValue>
+    </Option>
+    <Option>
+     <OptName>mm_data_year</OptName>
+     <OptValue>2011AA</OptValue>
+    </Option>
+    <Option>
+     <OptName>mm_data_version</OptName>
+     <OptValue>USAbase</OptValue>
+    </Option>
+    <Option>
+     <OptName>word_sense_disambiguation</OptName>
+    </Option>
+    <Option>
+     <OptName>prefer_multiple_concepts</OptName>
+    </Option>
+    <Option>
+     <OptName>XMLf</OptName>
+    </Option>
+    <Option>
+     <OptName>infile</OptName>
+     <OptValue>/home/lizhou/NICTA/NewTestSet/reference-original/test90.txt</OptValue>
+    </Option>
+    <Option>
+     <OptName>outfile</OptName>
+     <OptValue>/home/lizhou/NICTA/NewTestSet/metamapped/test90.txt.metamapped.xml</OptValue>
+    </Option>
+   </Options>
+  </CmdLine>
+  <AAs Count="0" />
+  <Negations Count="0" />
+  <Utterances Count="10">
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>1</UttNum>
+    <UttText>In bed 6 is Henrik Ventola, 32 yrs old under Dr gartrid, came in with cellulitis and pitting oedema of right leg. </UttText>
+    <UttStartPos>0</UttStartPos>
+    <UttLength>114</UttLength>
+    <Phrases Count="11">
+     <Phrase>
+      <PhraseText>In bed 6</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>In</LexMatch>
+        <InputMatch>In</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>in</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>bed</LexMatch>
+        <InputMatch>bed</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>bed</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>shapes</SyntaxType>
+        <InputMatch>6</InputMatch>
+        <Tokens Count="1">
+         <Token>6</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>0</PhraseStartPos>
+      <PhraseLength>8</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0004916</CandidateCUI>
+        <CandidateMatched>Bed</CandidateMatched>
+        <CandidatePreferred>Beds</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>bed</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>mnob</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="7">
+         <Source>LCH</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+         <Source>HL7V2.5</Source>
+         <Source>NCI</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>3</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-694</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0004916</CandidateCUI>
+          <CandidateMatched>Bed</CandidateMatched>
+          <CandidatePreferred>Beds</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>bed</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>mnob</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="7">
+           <Source>LCH</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+           <Source>HL7V2.5</Source>
+           <Source>NCI</Source>
+           <Source>SNOMEDCT</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>3</StartPos>
+            <Length>3</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>is</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>aux</SyntaxType>
+        <LexMatch>is</LexMatch>
+        <InputMatch>is</InputMatch>
+        <LexCat>aux</LexCat>
+        <Tokens Count="1">
+         <Token>is</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>9</PhraseStartPos>
+      <PhraseLength>2</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>Henrik Ventola,</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <InputMatch>Henrik</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>henrik</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <InputMatch>Ventola</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>ventola</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>,</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>12</PhraseStartPos>
+      <PhraseLength>15</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>32 yrs old</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>shapes</SyntaxType>
+        <InputMatch>32</InputMatch>
+        <Tokens Count="1">
+         <Token>32</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>yrs</LexMatch>
+        <InputMatch>yrs</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>yrs</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>old</LexMatch>
+        <InputMatch>old</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>old</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>28</PhraseStartPos>
+      <PhraseLength>10</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0580836</CandidateCUI>
+        <CandidateMatched>Old</CandidateMatched>
+        <CandidatePreferred>Old</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>old</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>tmco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>35</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-691</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-691</CandidateScore>
+          <CandidateCUI>C0580836</CandidateCUI>
+          <CandidateMatched>Old</CandidateMatched>
+          <CandidatePreferred>Old</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>old</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>tmco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>3</TextMatchStart>
+            <TextMatchEnd>3</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="5">
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>35</StartPos>
+            <Length>3</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>under Dr gartrid,</PhraseText>
+      <SyntaxUnits Count="4">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>under</LexMatch>
+        <InputMatch>under</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>under</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>DR</LexMatch>
+        <InputMatch>Dr</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>dr</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <InputMatch>gartrid</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>gartrid</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>,</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>39</PhraseStartPos>
+      <PhraseLength>17</PhraseLength>
+      <Candidates Total="3" Excluded="0" Pruned="0" Remaining="3">
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C0031831</CandidateCUI>
+        <CandidateMatched>DR</CandidateMatched>
+        <CandidatePreferred>Physicians</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dr</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>prog</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="14">
+         <Source>AOT</Source>
+         <Source>LCH</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+         <Source>HL7V3.0</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>45</StartPos>
+          <Length>2</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C1707664</CandidateCUI>
+        <CandidateMatched>DR</CandidateMatched>
+        <CandidatePreferred>Delayed Release Dosage Form</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dr</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bodm</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>45</StartPos>
+          <Length>2</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C2348314</CandidateCUI>
+        <CandidateMatched>Dr.</CandidateMatched>
+        <CandidatePreferred>Doctor - Title</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dr</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>cnce</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>45</StartPos>
+          <Length>2</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-527</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-527</CandidateScore>
+          <CandidateCUI>C0031831</CandidateCUI>
+          <CandidateMatched>DR</CandidateMatched>
+          <CandidatePreferred>Physicians</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>dr</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>prog</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="14">
+           <Source>AOT</Source>
+           <Source>LCH</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+           <Source>HL7V3.0</Source>
+           <Source>SNMI</Source>
+           <Source>SNM</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>45</StartPos>
+            <Length>2</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>came</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>verb</SyntaxType>
+        <LexMatch>came</LexMatch>
+        <InputMatch>came</InputMatch>
+        <LexCat>verb</LexCat>
+        <Tokens Count="1">
+         <Token>came</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>57</PhraseStartPos>
+      <PhraseLength>4</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>in</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>in</LexMatch>
+        <InputMatch>in</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>in</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>62</PhraseStartPos>
+      <PhraseLength>2</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>with cellulitis</PhraseText>
+      <SyntaxUnits Count="2">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>with</LexMatch>
+        <InputMatch>with</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>with</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>cellulitis</LexMatch>
+        <InputMatch>cellulitis</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>cellulitis</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>65</PhraseStartPos>
+      <PhraseLength>15</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0007642</CandidateCUI>
+        <CandidateMatched>Cellulitis</CandidateMatched>
+        <CandidatePreferred>Cellulitis</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>cellulitis</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>dsyn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="17">
+         <Source>LCH</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>NDFRT</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>COSTAR</Source>
+         <Source>CST</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>MTHICD9</Source>
+         <Source>SNMI</Source>
+         <Source>ICD10CM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>70</StartPos>
+          <Length>10</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C0007642</CandidateCUI>
+          <CandidateMatched>Cellulitis</CandidateMatched>
+          <CandidatePreferred>Cellulitis</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>cellulitis</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>dsyn</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="17">
+           <Source>LCH</Source>
+           <Source>MEDLINEPLUS</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>NDFRT</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>COSTAR</Source>
+           <Source>CST</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>MTHICD9</Source>
+           <Source>SNMI</Source>
+           <Source>ICD10CM</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>70</StartPos>
+            <Length>10</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>and</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>conj</SyntaxType>
+        <LexMatch>and</LexMatch>
+        <InputMatch>and</InputMatch>
+        <LexCat>conj</LexCat>
+        <Tokens Count="1">
+         <Token>and</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>81</PhraseStartPos>
+      <PhraseLength>3</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>pitting oedema</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>pitting oedema</LexMatch>
+        <InputMatch>pitting oedema</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="2">
+         <Token>pitting</Token>
+         <Token>oedema</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>85</PhraseStartPos>
+      <PhraseLength>14</PhraseLength>
+      <Candidates Total="8" Excluded="3" Pruned="0" Remaining="5">
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0013604</CandidateCUI>
+        <CandidateMatched>Edema</CandidateMatched>
+        <CandidatePreferred>Edema</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>edema</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>patf</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="20">
+         <Source>ICD9CM</Source>
+         <Source>LCH</Source>
+         <Source>LNC</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>NDFRT</Source>
+         <Source>OMIM</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>COSTAR</Source>
+         <Source>CST</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>SNMI</Source>
+         <Source>MTHICD9</Source>
+         <Source>ICD10CM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>93</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0205323</CandidateCUI>
+        <CandidateMatched>Pitting</CandidateMatched>
+        <CandidatePreferred>Pitting</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>pitting</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>ftcn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C1717255</CandidateCUI>
+        <CandidateMatched>Edema</CandidateMatched>
+        <CandidatePreferred>Edema:Finding:Point in time:^Patient:Ordinal</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>edema</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>clna</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>LNC</Source>
+         <Source>MTH</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>93</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C1882401</CandidateCUI>
+        <CandidateMatched>PITTING</CandidateMatched>
+        <CandidatePreferred>Pitted Medical Device Material</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>pitting</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>evnt</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0333243</CandidateCUI>
+        <CandidateMatched>Pitting edema</CandidateMatched>
+        <CandidatePreferred>Pitting edema</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>pitting</MatchedWord>
+         <MatchedWord>edema</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>sosy</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="4">
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>14</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C0175697</CandidateCUI>
+        <CandidateMatched>PIT</CandidateMatched>
+        <CandidatePreferred>Van der Woude syndrome</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>pit</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="2">
+         <SemType>cgab</SemType>
+         <SemType>dsyn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="10">
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>NCI</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>OMIM</Source>
+         <Source>ICD10CM</Source>
+         <Source>SNM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C2697656</CandidateCUI>
+        <CandidateMatched>PIT</CandidateMatched>
+        <CandidatePreferred>IRF6 wt Allele</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>pit</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>gngm</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-623</CandidateScore>
+        <CandidateCUI>C0332467</CandidateCUI>
+        <CandidateMatched>Indented</CandidateMatched>
+        <CandidatePreferred>Indentation</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>indented</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>spco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>3</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>SNMI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>85</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-777</MappingScore>
+        <MappingCandidates Total="2">
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0205323</CandidateCUI>
+          <CandidateMatched>Pitting</CandidateMatched>
+          <CandidatePreferred>Pitting</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>pitting</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>ftcn</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="3">
+           <Source>MTH</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>85</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0013604</CandidateCUI>
+          <CandidateMatched>Edema</CandidateMatched>
+          <CandidatePreferred>Edema</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>edema</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>patf</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="20">
+           <Source>ICD9CM</Source>
+           <Source>LCH</Source>
+           <Source>LNC</Source>
+           <Source>MEDLINEPLUS</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>NDFRT</Source>
+           <Source>OMIM</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>UWDA</Source>
+           <Source>COSTAR</Source>
+           <Source>CST</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>SNMI</Source>
+           <Source>MTHICD9</Source>
+           <Source>ICD10CM</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>93</StartPos>
+            <Length>6</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>of right leg.</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>of</LexMatch>
+        <InputMatch>of</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>of</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>right leg</LexMatch>
+        <InputMatch>right leg</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="2">
+         <Token>right</Token>
+         <Token>leg</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>100</PhraseStartPos>
+      <PhraseLength>13</PhraseLength>
+      <Candidates Total="8" Excluded="1" Pruned="0" Remaining="7">
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0023216</CandidateCUI>
+        <CandidateMatched>Leg</CandidateMatched>
+        <CandidatePreferred>Lower Extremity</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>blor</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="15">
+         <Source>CST</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNM</Source>
+         <Source>FMA</Source>
+         <Source>LNC</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>LCH</Source>
+         <Source>SNMI</Source>
+         <Source>ICF-CY</Source>
+         <Source>ICF</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>109</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0205090</CandidateCUI>
+        <CandidateMatched>Right</CandidateMatched>
+        <CandidatePreferred>Right</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>right</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>spco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="9">
+         <Source>FMA</Source>
+         <Source>HL7V2.5</Source>
+         <Source>LNC</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>103</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C1140621</CandidateCUI>
+        <CandidateMatched>Leg</CandidateMatched>
+        <CandidatePreferred>Leg</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>blor</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="16">
+         <Source>FMA</Source>
+         <Source>HL7V2.5</Source>
+         <Source>LCH</Source>
+         <Source>LNC</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>SNMI</Source>
+         <Source>ICF-CY</Source>
+         <Source>ICF</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>109</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C1269079</CandidateCUI>
+        <CandidateMatched>Leg</CandidateMatched>
+        <CandidatePreferred>Entire lower limb</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bpoc</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>109</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C1285009</CandidateCUI>
+        <CandidateMatched>Leg</CandidateMatched>
+        <CandidatePreferred>Entire lower leg, from knee to ankle</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>blor</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>109</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0230442</CandidateCUI>
+        <CandidateMatched>Right leg</CandidateMatched>
+        <CandidatePreferred>Structure of right lower leg</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>right</MatchedWord>
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bpoc</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="8">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>FMA</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+         <Source>UWDA</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>103</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C1279605</CandidateCUI>
+        <CandidateMatched>Right leg</CandidateMatched>
+        <CandidatePreferred>Entire right lower leg</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>right</MatchedWord>
+         <MatchedWord>leg</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bpoc</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>103</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C0035621</CandidateCUI>
+        <CandidateMatched>Rights</CandidateMatched>
+        <CandidatePreferred>Rights</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>rights</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MSH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>103</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-777</MappingScore>
+        <MappingCandidates Total="2">
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0205090</CandidateCUI>
+          <CandidateMatched>Right</CandidateMatched>
+          <CandidatePreferred>Right</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>right</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>spco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="9">
+           <Source>FMA</Source>
+           <Source>HL7V2.5</Source>
+           <Source>LNC</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>UWDA</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>103</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0023216</CandidateCUI>
+          <CandidateMatched>Leg</CandidateMatched>
+          <CandidatePreferred>Lower Extremity</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>leg</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>blor</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="15">
+           <Source>CST</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNM</Source>
+           <Source>FMA</Source>
+           <Source>LNC</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>UWDA</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>LCH</Source>
+           <Source>SNMI</Source>
+           <Source>ICF-CY</Source>
+           <Source>ICF</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>109</StartPos>
+            <Length>3</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>2</UttNum>
+    <UttText>On IVabs via right ivc. </UttText>
+    <UttStartPos>114</UttStartPos>
+    <UttLength>24</UttLength>
+    <Phrases Count="2">
+     <Phrase>
+      <PhraseText>On IVabs</PhraseText>
+      <SyntaxUnits Count="2">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>ON</LexMatch>
+        <InputMatch>On</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>on</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <InputMatch>IVabs</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>ivabs</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>114</PhraseStartPos>
+      <PhraseLength>8</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>via right ivc.</PhraseText>
+      <SyntaxUnits Count="4">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>via</LexMatch>
+        <InputMatch>via</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>via</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>right</LexMatch>
+        <InputMatch>right</InputMatch>
+        <LexCat>adj</LexCat>
+        <Tokens Count="1">
+         <Token>right</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>IVC</LexMatch>
+        <InputMatch>ivc</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>ivc</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>123</PhraseStartPos>
+      <PhraseLength>14</PhraseLength>
+      <Candidates Total="2" Excluded="1" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C0205090</CandidateCUI>
+        <CandidateMatched>Right</CandidateMatched>
+        <CandidatePreferred>Right</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>right</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>spco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="9">
+         <Source>FMA</Source>
+         <Source>HL7V2.5</Source>
+         <Source>LNC</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>127</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-494</CandidateScore>
+        <CandidateCUI>C0035621</CandidateCUI>
+        <CandidateMatched>Rights</CandidateMatched>
+        <CandidatePreferred>Rights</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>rights</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MSH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>127</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-527</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-527</CandidateScore>
+          <CandidateCUI>C0205090</CandidateCUI>
+          <CandidateMatched>Right</CandidateMatched>
+          <CandidatePreferred>Right</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>right</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>spco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="9">
+           <Source>FMA</Source>
+           <Source>HL7V2.5</Source>
+           <Source>LNC</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>UWDA</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>127</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>3</UttNum>
+    <UttText>Febrile at 37.9 on regular paracetamol. </UttText>
+    <UttStartPos>138</UttStartPos>
+    <UttLength>40</UttLength>
+    <Phrases Count="3">
+     <Phrase>
+      <PhraseText>Febrile</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>febrile</LexMatch>
+        <InputMatch>Febrile</InputMatch>
+        <LexCat>adj</LexCat>
+        <Tokens Count="1">
+         <Token>febrile</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>138</PhraseStartPos>
+      <PhraseLength>7</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0015967</CandidateCUI>
+        <CandidateMatched>Febrile</CandidateMatched>
+        <CandidatePreferred>Fever</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>febrile</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="24">
+         <Source>AIR</Source>
+         <Source>ICPC</Source>
+         <Source>LCH</Source>
+         <Source>LNC</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>NDFRT</Source>
+         <Source>OMIM</Source>
+         <Source>QMR</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>COSTAR</Source>
+         <Source>CST</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>GO</Source>
+         <Source>ICD10CM</Source>
+         <Source>ICD9CM</Source>
+         <Source>MTHICD9</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>138</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C0015967</CandidateCUI>
+          <CandidateMatched>Febrile</CandidateMatched>
+          <CandidatePreferred>Fever</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>febrile</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>fndg</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="24">
+           <Source>AIR</Source>
+           <Source>ICPC</Source>
+           <Source>LCH</Source>
+           <Source>LNC</Source>
+           <Source>MEDLINEPLUS</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>NDFRT</Source>
+           <Source>OMIM</Source>
+           <Source>QMR</Source>
+           <Source>SNMI</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>COSTAR</Source>
+           <Source>CST</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>GO</Source>
+           <Source>ICD10CM</Source>
+           <Source>ICD9CM</Source>
+           <Source>MTHICD9</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>138</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>at 37.9</PhraseText>
+      <SyntaxUnits Count="2">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>at</LexMatch>
+        <InputMatch>at</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>at</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>shapes</SyntaxType>
+        <InputMatch>37 . 9</InputMatch>
+        <Tokens Count="2">
+         <Token>37</Token>
+         <Token>9</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>146</PhraseStartPos>
+      <PhraseLength>7</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>on regular paracetamol.</PhraseText>
+      <SyntaxUnits Count="4">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>on</LexMatch>
+        <InputMatch>on</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>on</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>regular</LexMatch>
+        <InputMatch>regular</InputMatch>
+        <LexCat>adj</LexCat>
+        <Tokens Count="1">
+         <Token>regular</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>paracetamol</LexMatch>
+        <InputMatch>paracetamol</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>paracetamol</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>154</PhraseStartPos>
+      <PhraseLength>23</PhraseLength>
+      <Candidates Total="2" Excluded="0" Pruned="0" Remaining="2">
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0000970</CandidateCUI>
+        <CandidateMatched>Paracetamol</CandidateMatched>
+        <CandidatePreferred>Acetaminophen</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>paracetamol</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="2">
+         <SemType>orch</SemType>
+         <SemType>phsu</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="17">
+         <Source>LCH</Source>
+         <Source>LNC</Source>
+         <Source>MSH</Source>
+         <Source>MTHSPL</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>NDFRT</Source>
+         <Source>RXNORM</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>PDQ</Source>
+         <Source>VANDF</Source>
+         <Source>MTHFDA</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>165</StartPos>
+          <Length>11</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C0205272</CandidateCUI>
+        <CandidateMatched>Regular</CandidateMatched>
+        <CandidatePreferred>Regular</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>regular</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>157</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-777</MappingScore>
+        <MappingCandidates Total="2">
+         <Candidate>
+          <CandidateScore>-527</CandidateScore>
+          <CandidateCUI>C0205272</CandidateCUI>
+          <CandidateMatched>Regular</CandidateMatched>
+          <CandidatePreferred>Regular</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>regular</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>qlco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="5">
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>157</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0000970</CandidateCUI>
+          <CandidateMatched>Paracetamol</CandidateMatched>
+          <CandidatePreferred>Acetaminophen</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>paracetamol</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="2">
+           <SemType>orch</SemType>
+           <SemType>phsu</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="17">
+           <Source>LCH</Source>
+           <Source>LNC</Source>
+           <Source>MSH</Source>
+           <Source>MTHSPL</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>NDFRT</Source>
+           <Source>RXNORM</Source>
+           <Source>SNMI</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>PDQ</Source>
+           <Source>VANDF</Source>
+           <Source>MTHFDA</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>165</StartPos>
+            <Length>11</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>4</UttNum>
+    <UttText>On the background of chronic renal failure. </UttText>
+    <UttStartPos>178</UttStartPos>
+    <UttLength>44</UttLength>
+    <Phrases Count="2">
+     <Phrase>
+      <PhraseText>On the background</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>ON</LexMatch>
+        <InputMatch>On</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>on</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>det</SyntaxType>
+        <LexMatch>the</LexMatch>
+        <InputMatch>the</InputMatch>
+        <LexCat>det</LexCat>
+        <Tokens Count="1">
+         <Token>the</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>background</LexMatch>
+        <InputMatch>background</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>background</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>178</PhraseStartPos>
+      <PhraseLength>17</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C1706907</CandidateCUI>
+        <CandidateMatched>Background</CandidateMatched>
+        <CandidatePreferred>Background</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>background</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>cnce</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="1">
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>185</StartPos>
+          <Length>10</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C1706907</CandidateCUI>
+          <CandidateMatched>Background</CandidateMatched>
+          <CandidatePreferred>Background</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>background</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>cnce</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="1">
+           <Source>NCI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>185</StartPos>
+            <Length>10</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>of chronic renal failure.</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>of</LexMatch>
+        <InputMatch>of</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>of</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>chronic renal failure</LexMatch>
+        <InputMatch>chronic renal failure</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="3">
+         <Token>chronic</Token>
+         <Token>renal</Token>
+         <Token>failure</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>196</PhraseStartPos>
+      <PhraseLength>25</PhraseLength>
+      <Candidates Total="8" Excluded="0" Pruned="0" Remaining="8">
+       <Candidate>
+        <CandidateScore>-753</CandidateScore>
+        <CandidateCUI>C0231178</CandidateCUI>
+        <CandidateMatched>Chronic failure</CandidateMatched>
+        <CandidatePreferred>Chronic failure</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>chronic</MatchedWord>
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>patf</SemType>
+        </SemTypes>
+        <MatchMaps Count="2">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>2</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="2">
+         <ConceptPI>
+          <StartPos>199</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+         <ConceptPI>
+          <StartPos>213</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0022646</CandidateCUI>
+        <CandidateMatched>Renal</CandidateMatched>
+        <CandidatePreferred>Kidney</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>renal</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bpoc</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="17">
+         <Source>FMA</Source>
+         <Source>HL7V2.5</Source>
+         <Source>ICF</Source>
+         <Source>LNC</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>OMIM</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>UWDA</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>ICF-CY</Source>
+         <Source>LCH</Source>
+         <Source>SNMI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>207</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0035078</CandidateCUI>
+        <CandidateMatched>Renal Failure</CandidateMatched>
+        <CandidatePreferred>Kidney Failure</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>renal</MatchedWord>
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>dsyn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="20">
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NDFRT</Source>
+         <Source>CST</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>NCI</Source>
+         <Source>COSTAR</Source>
+         <Source>DXP</Source>
+         <Source>LNC</Source>
+         <Source>OMIM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CSP</Source>
+         <Source>PDQ</Source>
+         <Source>ICD9CM</Source>
+         <Source>SNM</Source>
+         <Source>SNMI</Source>
+         <Source>CCS</Source>
+         <Source>ICD10CM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>207</StartPos>
+          <Length>13</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0205191</CandidateCUI>
+        <CandidateMatched>chronic</CandidateMatched>
+        <CandidatePreferred>chronic</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>chronic</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>tmco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="6">
+         <Source>CHV</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>DXP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>199</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0231174</CandidateCUI>
+        <CandidateMatched>Failure</CandidateMatched>
+        <CandidatePreferred>Failure (biologic function)</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>ftcn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="7">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>SNMI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>213</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0680095</CandidateCUI>
+        <CandidateMatched>failure</CandidateMatched>
+        <CandidatePreferred>Personal failure</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inbe</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>213</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C1963154</CandidateCUI>
+        <CandidateMatched>Renal failure</CandidateMatched>
+        <CandidatePreferred>Renal Failure Adverse Event</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>renal</MatchedWord>
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>207</StartPos>
+          <Length>13</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0022661</CandidateCUI>
+        <CandidateMatched>Renal Failure, Chronic</CandidateMatched>
+        <CandidatePreferred>Kidney Failure, Chronic</CandidatePreferred>
+        <MatchedWords Count="3">
+         <MatchedWord>chronic</MatchedWord>
+         <MatchedWord>renal</MatchedWord>
+         <MatchedWord>failure</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>dsyn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>3</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="20">
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NDFRT</Source>
+         <Source>CHV</Source>
+         <Source>DXP</Source>
+         <Source>CST</Source>
+         <Source>CCS</Source>
+         <Source>OMIM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>COSTAR</Source>
+         <Source>CSP</Source>
+         <Source>ICD10CM</Source>
+         <Source>MTHICD9</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>ICD9CM</Source>
+         <Source>RAM</Source>
+         <Source>QMR</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>199</StartPos>
+          <Length>21</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-814</MappingScore>
+        <MappingCandidates Total="3">
+         <Candidate>
+          <CandidateScore>-691</CandidateScore>
+          <CandidateCUI>C0205191</CandidateCUI>
+          <CandidateMatched>chronic</CandidateMatched>
+          <CandidatePreferred>chronic</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>chronic</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>tmco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="6">
+           <Source>CHV</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>DXP</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>199</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-691</CandidateScore>
+          <CandidateCUI>C0022646</CandidateCUI>
+          <CandidateMatched>Renal</CandidateMatched>
+          <CandidatePreferred>Kidney</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>renal</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>bpoc</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="17">
+           <Source>FMA</Source>
+           <Source>HL7V2.5</Source>
+           <Source>ICF</Source>
+           <Source>LNC</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>OMIM</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>UWDA</Source>
+           <Source>AOD</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>ICF-CY</Source>
+           <Source>LCH</Source>
+           <Source>SNMI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>207</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-691</CandidateScore>
+          <CandidateCUI>C0231174</CandidateCUI>
+          <CandidateMatched>Failure</CandidateMatched>
+          <CandidatePreferred>Failure (biologic function)</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>failure</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>ftcn</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>3</TextMatchStart>
+            <TextMatchEnd>3</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="7">
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+           <Source>CSP</Source>
+           <Source>SNMI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>213</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>5</UttNum>
+    <UttText>Not on dialysis. </UttText>
+    <UttStartPos>222</UttStartPos>
+    <UttLength>17</UttLength>
+    <Phrases Count="2">
+     <Phrase>
+      <PhraseText>Not</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>adv</SyntaxType>
+        <LexMatch>NOT</LexMatch>
+        <InputMatch>Not</InputMatch>
+        <LexCat>adv</LexCat>
+        <Tokens Count="1">
+         <Token>not</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>222</PhraseStartPos>
+      <PhraseLength>3</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C1518422</CandidateCUI>
+        <CandidateMatched>Not</CandidateMatched>
+        <CandidatePreferred>Negation</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>not</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>ftcn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>222</StartPos>
+          <Length>3</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C1518422</CandidateCUI>
+          <CandidateMatched>Not</CandidateMatched>
+          <CandidatePreferred>Negation</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>not</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>ftcn</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="2">
+           <Source>MTH</Source>
+           <Source>NCI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>222</StartPos>
+            <Length>3</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>on dialysis.</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>on</LexMatch>
+        <InputMatch>on</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>on</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>dialysis</LexMatch>
+        <InputMatch>dialysis</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>dialysis</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>226</PhraseStartPos>
+      <PhraseLength>12</PhraseLength>
+      <Candidates Total="4" Excluded="0" Pruned="0" Remaining="4">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0011945</CandidateCUI>
+        <CandidateMatched>Dialysis</CandidateMatched>
+        <CandidatePreferred>Physical Dialysis</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dialysis</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>npop</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="6">
+         <Source>MTH</Source>
+         <Source>LCH</Source>
+         <Source>LNC</Source>
+         <Source>MSH</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>229</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0011946</CandidateCUI>
+        <CandidateMatched>dialysis</CandidateMatched>
+        <CandidatePreferred>Dialysis procedure</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dialysis</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>topp</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="9">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>MTHCH</Source>
+         <Source>PDQ</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>229</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0917873</CandidateCUI>
+        <CandidateMatched>dialysis</CandidateMatched>
+        <CandidatePreferred>Renal dialysis</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dialysis</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>topp</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="7">
+         <Source>MEDLINEPLUS</Source>
+         <Source>MTHICD9</Source>
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>MSH</Source>
+         <Source>CHV</Source>
+         <Source>SNMI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>229</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C1059964</CandidateCUI>
+        <CandidateMatched>Dialysis</CandidateMatched>
+        <CandidatePreferred>Genus Dialysis</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dialysis</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>euka</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCBI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>229</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C0011945</CandidateCUI>
+          <CandidateMatched>Dialysis</CandidateMatched>
+          <CandidatePreferred>Physical Dialysis</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>dialysis</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>npop</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="6">
+           <Source>MTH</Source>
+           <Source>LCH</Source>
+           <Source>LNC</Source>
+           <Source>MSH</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>229</StartPos>
+            <Length>8</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>6</UttNum>
+    <UttText>On strict fluid balance chart. </UttText>
+    <UttStartPos>239</UttStartPos>
+    <UttLength>31</UttLength>
+    <Phrases Count="1">
+     <Phrase>
+      <PhraseText>On strict fluid balance chart.</PhraseText>
+      <SyntaxUnits Count="5">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>ON</LexMatch>
+        <InputMatch>On</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>on</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>strict</LexMatch>
+        <InputMatch>strict</InputMatch>
+        <LexCat>adj</LexCat>
+        <Tokens Count="1">
+         <Token>strict</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>fluid balance</LexMatch>
+        <InputMatch>fluid balance</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="2">
+         <Token>fluid</Token>
+         <Token>balance</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>chart</LexMatch>
+        <InputMatch>chart</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>chart</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>239</PhraseStartPos>
+      <PhraseLength>30</PhraseLength>
+      <Candidates Total="14" Excluded="4" Pruned="0" Remaining="10">
+       <Candidate>
+        <CandidateScore>-687</CandidateScore>
+        <CandidateCUI>C0007963</CandidateCUI>
+        <CandidateMatched>chart</CandidateMatched>
+        <CandidatePreferred>Charts (device)</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>chart</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>medd</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>4</TextMatchStart>
+          <TextMatchEnd>4</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>263</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-687</CandidateScore>
+        <CandidateCUI>C0684240</CandidateCUI>
+        <CandidateMatched>chart</CandidateMatched>
+        <CandidatePreferred>Charts (publication)</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>chart</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inpr</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>4</TextMatchStart>
+          <TextMatchEnd>4</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="4">
+         <Source>MTH</Source>
+         <Source>MSH</Source>
+         <Source>CHV</Source>
+         <Source>AOD</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>263</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C0016284</CandidateCUI>
+        <CandidateMatched>Fluid Balance</CandidateMatched>
+        <CandidatePreferred>Fluid Balance</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>fluid</MatchedWord>
+         <MatchedWord>balance</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>orgf</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="7">
+         <Source>MSH</Source>
+         <Source>LNC</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>ICF-CY</Source>
+         <Source>ICF</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>13</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0005889</CandidateCUI>
+        <CandidateMatched>FLUID</CandidateMatched>
+        <CandidatePreferred>Body Fluids</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>fluid</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>bdsu</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="11">
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>LCH</Source>
+         <Source>CHV</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>SNMI</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0014653</CandidateCUI>
+        <CandidateMatched>Balance</CandidateMatched>
+        <CandidatePreferred>Equilibrium</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balance</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>orgf</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="8">
+         <Source>AOT</Source>
+         <Source>LCH</Source>
+         <Source>MTH</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>SNMI</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0205415</CandidateCUI>
+        <CandidateMatched>Balance</CandidateMatched>
+        <CandidatePreferred>Balanced - adjective</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balance</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>ftcn</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="4">
+         <Source>MTH</Source>
+         <Source>SNMI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0302908</CandidateCUI>
+        <CandidateMatched>fluid</CandidateMatched>
+        <CandidatePreferred>Liquid substance</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>fluid</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>sbst</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="8">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>SNMI</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0444611</CandidateCUI>
+        <CandidateMatched>Fluid</CandidateMatched>
+        <CandidatePreferred>Fluid behavior</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>fluid</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C0560184</CandidateCUI>
+        <CandidateMatched>Balance</CandidateMatched>
+        <CandidatePreferred>Ability to balance</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balance</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-520</CandidateScore>
+        <CandidateCUI>C1704353</CandidateCUI>
+        <CandidateMatched>Fluid</CandidateMatched>
+        <CandidatePreferred>fluid - substance</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>fluid</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>sbst</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="6">
+         <Source>MTH</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-487</CandidateScore>
+        <CandidateCUI>C0179199</CandidateCUI>
+        <CandidateMatched>balances</CandidateMatched>
+        <CandidatePreferred>Balance, device</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balances</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>medd</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-487</CandidateScore>
+        <CandidateCUI>C0542274</CandidateCUI>
+        <CandidateMatched>balances</CandidateMatched>
+        <CandidatePreferred>Does balance</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balances</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-487</CandidateScore>
+        <CandidateCUI>C0560187</CandidateCUI>
+        <CandidateMatched>Balancing</CandidateMatched>
+        <CandidatePreferred>Able to balance</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>balancing</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>LNC</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>255</StartPos>
+          <Length>7</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-487</CandidateScore>
+        <CandidateCUI>C1521806</CandidateCUI>
+        <CandidateMatched>Fluids</CandidateMatched>
+        <CandidatePreferred>Body Fluids and Substances</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>fluids</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>tisu</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>249</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-835</MappingScore>
+        <MappingCandidates Total="3">
+         <Candidate>
+          <CandidateScore>-520</CandidateScore>
+          <CandidateCUI>C0005889</CandidateCUI>
+          <CandidateMatched>FLUID</CandidateMatched>
+          <CandidatePreferred>Body Fluids</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>fluid</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>bdsu</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="11">
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>LCH</Source>
+           <Source>CHV</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>SNMI</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>249</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-520</CandidateScore>
+          <CandidateCUI>C0560184</CandidateCUI>
+          <CandidateMatched>Balance</CandidateMatched>
+          <CandidatePreferred>Ability to balance</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>balance</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>fndg</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>3</TextMatchStart>
+            <TextMatchEnd>3</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="5">
+           <Source>MTH</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>255</StartPos>
+            <Length>7</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-687</CandidateScore>
+          <CandidateCUI>C0684240</CandidateCUI>
+          <CandidateMatched>chart</CandidateMatched>
+          <CandidatePreferred>Charts (publication)</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>chart</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>inpr</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>4</TextMatchStart>
+            <TextMatchEnd>4</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="4">
+           <Source>MTH</Source>
+           <Source>MSH</Source>
+           <Source>CHV</Source>
+           <Source>AOD</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>263</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>7</UttNum>
+    <UttText>For wound dressings. </UttText>
+    <UttStartPos>270</UttStartPos>
+    <UttLength>21</UttLength>
+    <Phrases Count="1">
+     <Phrase>
+      <PhraseText>For wound dressings.</PhraseText>
+      <SyntaxUnits Count="4">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>for</LexMatch>
+        <InputMatch>For</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>for</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>wound</LexMatch>
+        <InputMatch>wound</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>wound</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>dressings</LexMatch>
+        <InputMatch>dressings</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>dressings</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>270</PhraseStartPos>
+      <PhraseLength>20</PhraseLength>
+      <Candidates Total="7" Excluded="4" Pruned="0" Remaining="3">
+       <Candidate>
+        <CandidateScore>-694</CandidateScore>
+        <CandidateCUI>C0013119</CandidateCUI>
+        <CandidateMatched>Dressings</CandidateMatched>
+        <CandidatePreferred>Sterile coverings</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dressings</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>medd</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="8">
+         <Source>MTH</Source>
+         <Source>MSH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+         <Source>SNMI</Source>
+         <Source>SPN</Source>
+         <Source>VANDF</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>280</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0460765</CandidateCUI>
+        <CandidateMatched>wound dressings</CandidateMatched>
+        <CandidatePreferred>Wound Dressings (device)</CandidatePreferred>
+        <MatchedWords Count="2">
+         <MatchedWord>wound</MatchedWord>
+         <MatchedWord>dressings</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>medd</SemType>
+        </SemTypes>
+        <MatchMaps Count="2">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>2</ConcMatchStart>
+          <ConcMatchEnd>2</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+         <Source>SNOMEDCT</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>274</StartPos>
+          <Length>15</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C0278286</CandidateCUI>
+        <CandidateMatched>Dressing</CandidateMatched>
+        <CandidatePreferred>Dressing of skin or wound</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dressing</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>topp</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>SNM</Source>
+         <Source>SNMI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>280</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C0518459</CandidateCUI>
+        <CandidateMatched>dressing</CandidateMatched>
+        <CandidatePreferred>Dressing self-care</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dressing</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>fndg</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>280</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-661</CandidateScore>
+        <CandidateCUI>C1305428</CandidateCUI>
+        <CandidateMatched>Dressing</CandidateMatched>
+        <CandidatePreferred>Dressing- activity of daily living</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>dressing</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>dora</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="5">
+         <Source>MTH</Source>
+         <Source>ICF-CY</Source>
+         <Source>ICF</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>280</StartPos>
+          <Length>9</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-527</CandidateScore>
+        <CandidateCUI>C0043250</CandidateCUI>
+        <CandidateMatched>Wound</CandidateMatched>
+        <CandidatePreferred>Injury wounds</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>wound</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inpo</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="12">
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>SNM</Source>
+         <Source>SNMI</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>274</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-494</CandidateScore>
+        <CandidateCUI>C0021501</CandidateCUI>
+        <CandidateMatched>wounds</CandidateMatched>
+        <CandidatePreferred>Wounds - qualifier</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>wounds</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>MSH</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>274</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-777</MappingScore>
+        <MappingCandidates Total="2">
+         <Candidate>
+          <CandidateScore>-527</CandidateScore>
+          <CandidateCUI>C0043250</CandidateCUI>
+          <CandidateMatched>Wound</CandidateMatched>
+          <CandidatePreferred>Injury wounds</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>wound</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>inpo</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="12">
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+           <Source>MEDLINEPLUS</Source>
+           <Source>MSH</Source>
+           <Source>SNM</Source>
+           <Source>SNMI</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>274</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-694</CandidateScore>
+          <CandidateCUI>C0013119</CandidateCUI>
+          <CandidateMatched>Dressings</CandidateMatched>
+          <CandidatePreferred>Sterile coverings</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>dressings</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>medd</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="8">
+           <Source>MTH</Source>
+           <Source>MSH</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+           <Source>LNC</Source>
+           <Source>SNMI</Source>
+           <Source>SPN</Source>
+           <Source>VANDF</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>280</StartPos>
+            <Length>9</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>8</UttNum>
+    <UttText>For wound nurse referral. </UttText>
+    <UttStartPos>291</UttStartPos>
+    <UttLength>26</UttLength>
+    <Phrases Count="1">
+     <Phrase>
+      <PhraseText>For wound nurse referral.</PhraseText>
+      <SyntaxUnits Count="5">
+       <SyntaxUnit>
+        <SyntaxType>prep</SyntaxType>
+        <LexMatch>for</LexMatch>
+        <InputMatch>For</InputMatch>
+        <LexCat>prep</LexCat>
+        <Tokens Count="1">
+         <Token>for</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>wound</LexMatch>
+        <InputMatch>wound</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>wound</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>mod</SyntaxType>
+        <LexMatch>nurse</LexMatch>
+        <InputMatch>nurse</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>nurse</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>referral</LexMatch>
+        <InputMatch>referral</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>referral</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>291</PhraseStartPos>
+      <PhraseLength>25</PhraseLength>
+      <Candidates Total="5" Excluded="1" Pruned="0" Remaining="4">
+       <Candidate>
+        <CandidateScore>-691</CandidateScore>
+        <CandidateCUI>C0034927</CandidateCUI>
+        <CandidateMatched>Referral</CandidateMatched>
+        <CandidatePreferred>Patient referral</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>referral</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>hlca</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>3</TextMatchStart>
+          <TextMatchEnd>3</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="7">
+         <Source>MTH</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>SNMI</Source>
+         <Source>MSH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>307</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-524</CandidateScore>
+        <CandidateCUI>C0006147</CandidateCUI>
+        <CandidateMatched>Nurse</CandidateMatched>
+        <CandidatePreferred>Breast Feeding</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>nurse</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>orgf</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="13">
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+         <Source>DXP</Source>
+         <Source>LCH</Source>
+         <Source>SNM</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>AOD</Source>
+         <Source>CHV</Source>
+         <Source>CSP</Source>
+         <Source>SNMI</Source>
+         <Source>LNC</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>301</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-524</CandidateScore>
+        <CandidateCUI>C0028661</CandidateCUI>
+        <CandidateMatched>Nurse</CandidateMatched>
+        <CandidatePreferred>Nurses</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>nurse</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>prog</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>2</TextMatchStart>
+          <TextMatchEnd>2</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="13">
+         <Source>LCH</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+         <Source>HL7V3.0</Source>
+         <Source>SNMI</Source>
+         <Source>SNM</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>301</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-524</CandidateScore>
+        <CandidateCUI>C0043250</CandidateCUI>
+        <CandidateMatched>Wound</CandidateMatched>
+        <CandidatePreferred>Injury wounds</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>wound</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inpo</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="12">
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+         <Source>MEDLINEPLUS</Source>
+         <Source>MSH</Source>
+         <Source>SNM</Source>
+         <Source>SNMI</Source>
+         <Source>LNC</Source>
+         <Source>NCI</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>DXP</Source>
+         <Source>AOD</Source>
+         <Source>CSP</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>295</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-491</CandidateScore>
+        <CandidateCUI>C0021501</CandidateCUI>
+        <CandidateMatched>wounds</CandidateMatched>
+        <CandidatePreferred>Wounds - qualifier</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>wounds</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>no</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>MSH</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>295</StartPos>
+          <Length>5</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-814</MappingScore>
+        <MappingCandidates Total="3">
+         <Candidate>
+          <CandidateScore>-524</CandidateScore>
+          <CandidateCUI>C0043250</CandidateCUI>
+          <CandidateMatched>Wound</CandidateMatched>
+          <CandidatePreferred>Injury wounds</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>wound</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>inpo</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="12">
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+           <Source>MEDLINEPLUS</Source>
+           <Source>MSH</Source>
+           <Source>SNM</Source>
+           <Source>SNMI</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>295</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-524</CandidateScore>
+          <CandidateCUI>C0028661</CandidateCUI>
+          <CandidateMatched>Nurse</CandidateMatched>
+          <CandidatePreferred>Nurses</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>nurse</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>prog</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>2</TextMatchStart>
+            <TextMatchEnd>2</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>no</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="13">
+           <Source>LCH</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+           <Source>LNC</Source>
+           <Source>NCI</Source>
+           <Source>DXP</Source>
+           <Source>AOD</Source>
+           <Source>CSP</Source>
+           <Source>HL7V3.0</Source>
+           <Source>SNMI</Source>
+           <Source>SNM</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>301</StartPos>
+            <Length>5</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+         <Candidate>
+          <CandidateScore>-691</CandidateScore>
+          <CandidateCUI>C0034927</CandidateCUI>
+          <CandidateMatched>Referral</CandidateMatched>
+          <CandidatePreferred>Patient referral</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>referral</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>hlca</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>3</TextMatchStart>
+            <TextMatchEnd>3</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="7">
+           <Source>MTH</Source>
+           <Source>SNM</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>CHV</Source>
+           <Source>SNMI</Source>
+           <Source>MSH</Source>
+           <Source>NCI</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>307</StartPos>
+            <Length>8</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>9</UttNum>
+    <UttText>Ambulant and self caring. </UttText>
+    <UttStartPos>317</UttStartPos>
+    <UttLength>26</UttLength>
+    <Phrases Count="3">
+     <Phrase>
+      <PhraseText>Ambulant</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>ambulant</LexMatch>
+        <InputMatch>Ambulant</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>ambulant</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>317</PhraseStartPos>
+      <PhraseLength>8</PhraseLength>
+      <Candidates Total="1" Excluded="0" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-595</CandidateScore>
+        <CandidateCUI>C0945826</CandidateCUI>
+        <CandidateMatched>Ambulation</CandidateMatched>
+        <CandidatePreferred>Ambulation</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>ambulation</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>orgf</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>3</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="4">
+         <Source>LNC</Source>
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>317</StartPos>
+          <Length>8</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-595</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-595</CandidateScore>
+          <CandidateCUI>C0945826</CandidateCUI>
+          <CandidateMatched>Ambulation</CandidateMatched>
+          <CandidatePreferred>Ambulation</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>ambulation</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>orgf</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>3</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="4">
+           <Source>LNC</Source>
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>317</StartPos>
+            <Length>8</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+     <Phrase>
+      <PhraseText>and</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>conj</SyntaxType>
+        <LexMatch>and</LexMatch>
+        <InputMatch>and</InputMatch>
+        <LexCat>conj</LexCat>
+        <Tokens Count="1">
+         <Token>and</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>326</PhraseStartPos>
+      <PhraseLength>3</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>self caring.</PhraseText>
+      <SyntaxUnits Count="3">
+       <SyntaxUnit>
+        <SyntaxType>pron</SyntaxType>
+        <LexMatch>self</LexMatch>
+        <InputMatch>self</InputMatch>
+        <LexCat>pron</LexCat>
+        <Tokens Count="1">
+         <Token>self</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>caring</LexMatch>
+        <InputMatch>caring</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>caring</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>330</PhraseStartPos>
+      <PhraseLength>12</PhraseLength>
+      <Candidates Total="2" Excluded="1" Pruned="0" Remaining="1">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0150499</CandidateCUI>
+        <CandidateMatched>Caring</CandidateMatched>
+        <CandidatePreferred>Caring</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>caring</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inbe</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="3">
+         <Source>MSH</Source>
+         <Source>MTH</Source>
+         <Source>CHV</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>335</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-633</CandidateScore>
+        <CandidateCUI>C1947933</CandidateCUI>
+        <CandidateMatched>Care</CandidateMatched>
+        <CandidatePreferred>care activity</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>care</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>acty</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>1</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>NCI</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>335</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>1</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C0150499</CandidateCUI>
+          <CandidateMatched>Caring</CandidateMatched>
+          <CandidatePreferred>Caring</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>caring</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>inbe</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="3">
+           <Source>MSH</Source>
+           <Source>MTH</Source>
+           <Source>CHV</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>335</StartPos>
+            <Length>6</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+   <Utterance>
+    <PMID>00000000</PMID>
+    <UttSection>tx</UttSection>
+    <UttNum>10</UttNum>
+    <UttText>Obs stable.</UttText>
+    <UttStartPos>343</UttStartPos>
+    <UttLength>11</UttLength>
+    <Phrases Count="2">
+     <Phrase>
+      <PhraseText>Obs</PhraseText>
+      <SyntaxUnits Count="1">
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>Obs</LexMatch>
+        <InputMatch>Obs</InputMatch>
+        <LexCat>noun</LexCat>
+        <Tokens Count="1">
+         <Token>obs</Token>
+        </Tokens>
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>343</PhraseStartPos>
+      <PhraseLength>3</PhraseLength>
+      <Candidates Total="0" Excluded="0" Pruned="0" Remaining="0" />
+      <Mappings Count="0" />
+     </Phrase>
+     <Phrase>
+      <PhraseText>stable.</PhraseText>
+      <SyntaxUnits Count="2">
+       <SyntaxUnit>
+        <SyntaxType>head</SyntaxType>
+        <LexMatch>stable</LexMatch>
+        <InputMatch>stable</InputMatch>
+        <LexCat>adj</LexCat>
+        <Tokens Count="1">
+         <Token>stable</Token>
+        </Tokens>
+       </SyntaxUnit>
+       <SyntaxUnit>
+        <SyntaxType>punc</SyntaxType>
+        <InputMatch>.</InputMatch>
+        <Tokens Count="0" />
+       </SyntaxUnit>
+      </SyntaxUnits>
+      <PhraseStartPos>347</PhraseStartPos>
+      <PhraseLength>7</PhraseLength>
+      <Candidates Total="2" Excluded="0" Pruned="0" Remaining="2">
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C0205360</CandidateCUI>
+        <CandidateMatched>Stable</CandidateMatched>
+        <CandidatePreferred>Stable status</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>stable</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>qlco</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="6">
+         <Source>MTH</Source>
+         <Source>SNOMEDCT</Source>
+         <Source>NCI</Source>
+         <Source>SNMI</Source>
+         <Source>CHV</Source>
+         <Source>LNC</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>347</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+       <Candidate>
+        <CandidateScore>-666</CandidateScore>
+        <CandidateCUI>C1547311</CandidateCUI>
+        <CandidateMatched>Stable</CandidateMatched>
+        <CandidatePreferred>Patient Condition Code - Stable</CandidatePreferred>
+        <MatchedWords Count="1">
+         <MatchedWord>stable</MatchedWord>
+        </MatchedWords>
+        <SemTypes Count="1">
+         <SemType>inpr</SemType>
+        </SemTypes>
+        <MatchMaps Count="1">
+         <MatchMap>
+          <TextMatchStart>1</TextMatchStart>
+          <TextMatchEnd>1</TextMatchEnd>
+          <ConcMatchStart>1</ConcMatchStart>
+          <ConcMatchEnd>1</ConcMatchEnd>
+          <LexVariation>0</LexVariation>
+         </MatchMap>
+        </MatchMaps>
+        <IsHead>yes</IsHead>
+        <IsOverMatch>no</IsOverMatch>
+        <Sources Count="2">
+         <Source>MTH</Source>
+         <Source>HL7V2.5</Source>
+        </Sources>
+        <ConceptPIs Count="1">
+         <ConceptPI>
+          <StartPos>347</StartPos>
+          <Length>6</Length>
+         </ConceptPI>
+        </ConceptPIs>
+        <Status>0</Status>
+       </Candidate>
+      </Candidates>
+      <Mappings Count="1">
+       <Mapping>
+        <MappingScore>-666</MappingScore>
+        <MappingCandidates Total="1">
+         <Candidate>
+          <CandidateScore>-666</CandidateScore>
+          <CandidateCUI>C0205360</CandidateCUI>
+          <CandidateMatched>Stable</CandidateMatched>
+          <CandidatePreferred>Stable status</CandidatePreferred>
+          <MatchedWords Count="1">
+           <MatchedWord>stable</MatchedWord>
+          </MatchedWords>
+          <SemTypes Count="1">
+           <SemType>qlco</SemType>
+          </SemTypes>
+          <MatchMaps Count="1">
+           <MatchMap>
+            <TextMatchStart>1</TextMatchStart>
+            <TextMatchEnd>1</TextMatchEnd>
+            <ConcMatchStart>1</ConcMatchStart>
+            <ConcMatchEnd>1</ConcMatchEnd>
+            <LexVariation>0</LexVariation>
+           </MatchMap>
+          </MatchMaps>
+          <IsHead>yes</IsHead>
+          <IsOverMatch>no</IsOverMatch>
+          <Sources Count="6">
+           <Source>MTH</Source>
+           <Source>SNOMEDCT</Source>
+           <Source>NCI</Source>
+           <Source>SNMI</Source>
+           <Source>CHV</Source>
+           <Source>LNC</Source>
+          </Sources>
+          <ConceptPIs Count="1">
+           <ConceptPI>
+            <StartPos>347</StartPos>
+            <Length>6</Length>
+           </ConceptPI>
+          </ConceptPIs>
+          <Status>0</Status>
+         </Candidate>
+        </MappingCandidates>
+       </Mapping>
+      </Mappings>
+     </Phrase>
+    </Phrases>
+   </Utterance>
+  </Utterances>
+ </MMO>
+</MMOs>

@@ -1,0 +1,49 @@
+In in O IN ROOT-SINV-PP-IN NONE NONE 0.5 In_bed_10 Beds NONE NONE NONE NONE Beds 0.0 0.0 NA
+bed bed O NN ROOT-SINV-PP-NP-NN NONE NONE 0.25 In_bed_10 Beds NONE NONE NONE NONE Beds 0.0 0.0 PatientIntroduction_CurrentBed
+10 10 NUMBER CD ROOT-SINV-PP-NP-CD NONE NONE 0.25 In_bed_10 Beds NONE NONE NONE NONE Beds 0.1 0.0 PatientIntroduction_CurrentBed
+is be O VBZ ROOT-SINV-VP-VBZ NONE NONE 0.75 is NONE NONE NONE NONE NONE NONE 0.1 0.0 NA
+Morgan Morgan PERSON NNP ROOT-SINV-NP-NP-NNP NONE NONE 0.25 Morgan_Jones, Jones morgan NONE NONE NONE morgan 0.1 0.0 PatientIntroduction_GivenNames/Initials
+Jones Jones PERSON NNP ROOT-SINV-NP-NP-NNP NONE NONE 0.25 Morgan_Jones, Jones morgan NONE NONE NONE morgan 0.1 0.0 PatientIntroduction_Lastname
+, , O , ROOT-SINV-NP-, NONE NONE 0.25 Morgan_Jones, Jones morgan NONE NONE NONE morgan 0.2 0.0 NA
+45 45 DURATION CD ROOT-SINV-NP-NP-NP-CD NONE NONE 0.25 45_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+yrs yr DURATION NNS ROOT-SINV-NP-NP-NP-NNS NONE NONE 0.25 45_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+old old DURATION JJ ROOT-SINV-NP-NP-ADJP-JJ NONE NONE 0.25 45_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+under under O IN ROOT-SINV-NP-NP-ADJP-PP-IN NONE NONE 0.25 under_Dr_Barry. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Physicians 0.3 0.0 NA
+Dr Dr O NNP ROOT-SINV-NP-NP-ADJP-PP-NP-NNP NONE NONE 0.25 under_Dr_Barry. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Physicians 0.3 0.0 PatientIntroduction_UnderDr_Lastname
+Barry Barry PERSON NNP ROOT-SINV-NP-NP-ADJP-PP-NP-NNP NONE NONE 0.25 under_Dr_Barry. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Physicians 0.3 0.0 PatientIntroduction_UnderDr_Lastname
+. . O . ROOT-SINV-. NONE NONE 1.0 under_Dr_Barry. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Physicians 0.3 0.0 NA
+
+He he O PRP ROOT-S-NP-PRP NONE NONE 0.75 He NONE NONE NONE NONE NONE NONE 0.3 0.0 PatientIntroduction_Gender
+came come O VBD ROOT-S-VP-VBD NONE NONE 0.25 came NONE NONE NONE NONE NONE NONE 0.4 0.0 NA
+in in O IN ROOT-S-VP-PP-IN NONE NONE 0.5 in NONE NONE NONE NONE NONE NONE 0.4 0.0 NA
+with with O IN ROOT-S-VP-PP-PP-IN NONE NONE 0.25 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.4 0.0 NA
+pneumonia pneumonia O NN ROOT-S-VP-PP-PP-NP-NN NONE NONE 0.25 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.4 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+. . O . ROOT-S-. NONE NONE 1.0 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.5 0.0 NA
+
+He he O PRP ROOT-S-NP-PRP NONE NONE 0.75 He NONE NONE NONE NONE NONE NONE 0.5 0.0 PatientIntroduction_Gender
+is be O VBZ ROOT-S-VP-VBZ NONE NONE 0.75 is NONE NONE NONE NONE NONE NONE 0.5 0.0 NA
+stable stable O JJ ROOT-S-VP-NP-NP-JJ NONE NONE 0.25 stable Stable_status Patient_Condition_Code_-_Stable NONE NONE NONE Patient_Condition_Code_-_Stable 0.5 0.0 MyShift_Status
+and and O CC ROOT-S-VP-NP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.5 0.0 NA
+nothing nothing O NN ROOT-S-VP-NP-NP-NP-NN NONE NONE 0.25 nothing's Nothing NONE NONE NONE NONE Nothing 0.6 0.0 MyShift_Status
+'s 's O POS ROOT-S-VP-NP-NP-NP-POS NONE NONE 0.25 nothing's Nothing NONE NONE NONE NONE Nothing 0.6 0.0 MyShift_Status
+new new O JJ ROOT-S-VP-NP-NP-JJ NONE NONE 0.25 new. New NONE NONE NONE NONE New 0.6 0.0 MyShift_Status
+. . O . ROOT-S-. NONE NONE 1.0 new. New NONE NONE NONE NONE New 0.6 0.0 NA
+
+Same same O JJ ROOT-S-NP-NP-JJ NONE NONE 0.25 Same_regimen_still Treatment_Protocols Regimen_-_CHV_concept Same NONE NONE Same 0.7 0.0 MyShift_Status
+regimen regimen O NNS ROOT-S-NP-NP-NNS NONE NONE 0.25 Same_regimen_still Treatment_Protocols Regimen_-_CHV_concept Same NONE NONE Same 0.7 0.0 MyShift_Status
+still still O RB ROOT-S-NP-PP-ADVP-RB NONE NONE 0.25 Same_regimen_still Treatment_Protocols Regimen_-_CHV_concept Same NONE NONE Same 0.7 0.0 NA
+on on O IN ROOT-S-NP-PP-IN NONE NONE 0.25 on_oral Oral NONE NONE NONE NONE Oral 0.7 0.0 NA
+oral oral O JJ ROOT-S-NP-PP-NP-NP-ADJP-JJ NONE NONE 0.25 on_oral Oral NONE NONE NONE NONE Oral 0.8 0.5 Medication_Medicine
+and and O CC ROOT-S-NP-PP-NP-NP-ADJP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.8 0.0 Medication_Medicine
+IV iv NUMBER CD ROOT-S-NP-PP-NP-NP-ADJP-CD NONE NONE 0.25 IV_antibiotics Antibiotics NONE NONE NONE NONE Antibiotics 0.8 0.0 Medication_Medicine
+antibiotics antibiotic O NNS ROOT-S-NP-PP-NP-NP-NNS NONE NONE 0.25 IV_antibiotics Antibiotics NONE NONE NONE NONE Antibiotics 0.8 0.5 Medication_Medicine
+and and O CC ROOT-S-NP-PP-NP-NP-ADJP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.8 0.0 NA
+he he O PRP ROOT-S-NP-PP-NP-NP-PRP NONE NONE 0.75 he NONE NONE NONE NONE NONE NONE 0.9 0.0 PatientIntroduction_Gender
+is be O VBZ ROOT-S-VP-VBZ NONE NONE 0.75 is NONE NONE NONE NONE NONE NONE 0.9 0.0 NA
+ambulant ambulant O JJ ROOT-S-VP-NP-ADJP-JJ NONE NONE 0.25 ambulant Ambulation NONE NONE NONE NONE Ambulation 0.9 0.0 MyShift_ActivitiesOfDailyLiving
+and and O CC ROOT-S-NP-PP-NP-NP-ADJP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.9 0.0 NA
+self self O NN ROOT-S-VP-NP-ADJP-NN NONE NONE 0.25 self_caring. Caring care_activity NONE NONE NONE Caring 1.0 0.0 MyShift_ActivitiesOfDailyLiving
+caring caring O NN ROOT-S-VP-NP-NN NONE NONE 0.25 self_caring. Caring care_activity NONE NONE NONE Caring 1.0 0.0 MyShift_ActivitiesOfDailyLiving
+. . O . ROOT-S-. NONE NONE 1.0 self_caring. Caring care_activity NONE NONE NONE Caring 1.0 0.0 NA
+
+

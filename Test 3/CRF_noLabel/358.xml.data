@@ -1,0 +1,59 @@
+in in O IN ROOT-SINV-PP-IN NONE NONE 0.5 in_room_8_bed_2 Beds Present Within Room NONE Present 0.0 0.0 NA
+room room O NN ROOT-SINV-PP-NP-NN NONE NONE 0.25 in_room_8_bed_2 Beds Present Within Room NONE Present 0.0 0.0 PatientIntroduction_CurrentRoom
+8 8 NUMBER CD ROOT-SINV-PP-NP-CD NONE NONE 0.25 in_room_8_bed_2 Beds Present Within Room NONE Present 0.1 0.0 PatientIntroduction_CurrentRoom
+bed bed O NN ROOT-SINV-PP-NP-NN NONE NONE 0.25 in_room_8_bed_2 Beds Present Within Room NONE Present 0.1 0.0 PatientIntroduction_CurrentBed
+2 2 NUMBER CD ROOT-SINV-PP-NP-CD NONE NONE 0.25 in_room_8_bed_2 Beds Present Within Room NONE Present 0.1 0.0 PatientIntroduction_CurrentBed
+is be O VBZ ROOT-SINV-VP-VBZ NONE NONE 0.25 is NONE NONE NONE NONE NONE NONE 0.1 0.0 NA
+karin karin PERSON NNP ROOT-SINV-NP-NP-NNP NONE NONE 0.25 karin_Auer, NONE NONE NONE NONE NONE NONE 0.1 0.0 PatientIntroduction_GivenNames/Initials
+Auer Auer PERSON NNP ROOT-SINV-NP-NP-NNP NONE NONE 0.25 karin_Auer, NONE NONE NONE NONE NONE NONE 0.2 0.0 PatientIntroduction_Lastname
+, , O , ROOT-SINV-NP-, NONE NONE 0.5 karin_Auer, NONE NONE NONE NONE NONE NONE 0.2 0.0 NA
+25 25 DURATION CD ROOT-SINV-NP-NP-NP-CD NONE NONE 0.25 25_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+yrs yr DURATION NNS ROOT-SINV-NP-NP-NP-NNS NONE NONE 0.25 25_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+old old DURATION JJ ROOT-SINV-NP-NP-ADJP-JJ NONE NONE 0.25 25_yrs_old Old NONE NONE NONE NONE Old 0.2 0.0 PatientIntroduction_Ageinyears
+under under O IN ROOT-SINV-NP-NP-ADJP-PP-IN NONE NONE 0.25 under_James, NONE NONE NONE NONE NONE NONE 0.2 0.0 NA
+James James PERSON NNP ROOT-SINV-NP-NP-ADJP-PP-NP-NNP NONE NONE 0.25 under_James, NONE NONE NONE NONE NONE NONE 0.3 0.0 PatientIntroduction_UnderDr_GivenNames/Initials
+, , O , ROOT-SINV-NP-, NONE NONE 0.5 under_James, NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+came come O VBD ROOT-SINV-S-VP-VBD NONE NONE 0.25 came NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+in in O IN ROOT-SINV-PP-IN NONE NONE 0.5 in NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+with with O IN ROOT-SINV-S-VP-PP-PP-IN NONE NONE 0.5 with_pulmonary_oedema Edema Lung Edema:Finding:Point_in_time:^Patient:Ordinal Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pulmonary_(qualifier_value) 0.3 0.0 NA
+pulmonary pulmonary O JJ ROOT-SINV-S-VP-PP-PP-NP-JJ NONE NONE 0.25 with_pulmonary_oedema Edema Lung Edema:Finding:Point_in_time:^Patient:Ordinal Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pulmonary_(qualifier_value) 0.4 0.0 PatientIntroduction_Disease/ProblemHistory
+oedema oedema O NN ROOT-SINV-S-VP-PP-PP-NP-NN NONE NONE 0.25 with_pulmonary_oedema Edema Lung Edema:Finding:Point_in_time:^Patient:Ordinal Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pulmonary_(qualifier_value) 0.4 0.0 PatientIntroduction_Disease/ProblemHistory
+on on O IN ROOT-SINV-S-VP-PP-IN NONE NONE 0.5 on_iv_diuretics Diuretics NONE NONE NONE NONE Diuretics 0.4 0.0 Medication_Status
+iv iv O NN ROOT-SINV-S-VP-PP-NP-NP-NN NONE NONE 0.25 on_iv_diuretics Diuretics NONE NONE NONE NONE Diuretics 0.4 0.0 Medication_Medicine
+diuretics diuretic O NNS ROOT-SINV-S-VP-PP-NP-NP-NNS NONE NONE 0.25 on_iv_diuretics Diuretics NONE NONE NONE NONE Diuretics 0.4 0.5 Medication_Medicine
+and and O CC ROOT-SINV-S-VP-PP-NP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.5 0.0 NA
+strict strict O JJ ROOT-SINV-S-VP-PP-NP-NP-JJ NONE NONE 0.25 strict_fbc. Complete_Blood_Count NONE NONE NONE NONE Complete_Blood_Count 0.5 0.0 MyShift_OtherObservation
+fbc fbc O NN ROOT-SINV-S-VP-PP-NP-NP-NN NONE NONE 0.25 strict_fbc. Complete_Blood_Count NONE NONE NONE NONE Complete_Blood_Count 0.5 0.0 MyShift_OtherObservation
+. . O . ROOT-SINV-. NONE NONE 0.5 strict_fbc. Complete_Blood_Count NONE NONE NONE NONE Complete_Blood_Count 0.5 0.0 NA
+
+with with O IN ROOT-NP-NP-PP-IN NONE NONE 0.5 with_no_medical_history Recording_of_previous_events_(discipline) Historical_aspects_qualifier Medical History_of_present_illness Medical_History Medical 0.5 0.0 NA
+no no O DT ROOT-NP-NP-PP-NP-NP-DT NONE NONE 0.5 with_no_medical_history Recording_of_previous_events_(discipline) Historical_aspects_qualifier Medical History_of_present_illness Medical_History Medical 0.5 0.0 PatientIntroduction_ChronicCondition
+medical medical O JJ ROOT-NP-NP-PP-NP-NP-JJ NONE NONE 0.25 with_no_medical_history Recording_of_previous_events_(discipline) Historical_aspects_qualifier Medical History_of_present_illness Medical_History Medical 0.6 0.5 PatientIntroduction_ChronicCondition
+history history O NN ROOT-NP-NP-PP-NP-NP-NN NONE NONE 0.25 with_no_medical_history Recording_of_previous_events_(discipline) Historical_aspects_qualifier Medical History_of_present_illness Medical_History Medical 0.6 0.0 PatientIntroduction_ChronicCondition
+and and O CC ROOT-NP-NP-PP-NP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.6 0.0 NA
+no no O DT ROOT-NP-NP-PP-NP-NP-DT NONE NONE 0.5 no_allergies. Hypersensitivity Response_to_antigens Allergy_Specialty Allergic NONE Hypersensitivity 0.6 0.0 PatientIntroduction_Allergy
+allergies.on allergies.on O NN ROOT-NP-NP-PP-NP-NP-NN NONE NONE 0.25 NONE NONE NONE NONE NONE NONE NONE 0.6 0.0 NA
+oxygen oxygen O NN ROOT-NP-NP-PP-NP-NP-NN NONE NONE 0.25 on_oxygen Oxygen NONE NONE NONE NONE Oxygen 0.7 0.5 Medication_Medicine
+at at O IN ROOT-NP-NP-PP-IN NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.7 0.0 Medication_Medicine
+3 3 NUMBER CD ROOT-NP-NP-PP-NP-NP-NP-CD NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.7 0.0 Medication_Medicine
+liters liter O NNS ROOT-NP-NP-PP-NP-NP-NP-NNS NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.7 0.0 Medication_Medicine
+per per O IN ROOT-NP-NP-PP-NP-NP-PP-IN NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.7 0.0 Medication_Medicine
+nasal nasal O JJ ROOT-NP-NP-PP-NP-NP-PP-NP-JJ NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.8 0.5 Medication_Medicine
+prongs prong O NNS ROOT-NP-NP-PP-NP-NP-PP-NP-NNS NONE NONE 0.25 at_3_liters_per_nasal_prongs Nasal_prongs Prong_Device_Component Transnasal_approach Nose <3_(qualifier_value) <3_(qualifier_value) 0.8 0.0 Medication_Medicine
+and and O CC ROOT-NP-NP-PP-NP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.8 0.0 NA
+still still O RB ROOT-NP-NP-PP-NP-NP-NP-RB NONE NONE 0.25 still NONE NONE NONE NONE NONE NONE 0.8 0.0 MyShift_OtherObservation
+short short O JJ ROOT-NP-NP-PP-NP-NP-NP-JJ NONE NONE 0.25 short_of_breath Breath Dyspnea NONE NONE NONE Breath 0.8 0.0 MyShift_OtherObservation
+of of O IN ROOT-NP-NP-PP-NP-NP-PP-IN NONE NONE 0.25 short_of_breath Breath Dyspnea NONE NONE NONE Breath 0.8 0.0 MyShift_OtherObservation
+breath breath O NN ROOT-NP-NP-PP-NP-NP-PP-NP-NP-NN NONE NONE 0.25 short_of_breath Breath Dyspnea NONE NONE NONE Breath 0.9 0.0 MyShift_OtherObservation
+on on O IN ROOT-NP-NP-PP-NP-NP-PP-NP-PP-IN NONE NONE 0.5 on_exertion.ambulant Ambulation Exertion EXERTIONAL NONE NONE Exertion 0.9 0.0 MyShift_OtherObservation
+exertion.ambulant exertion.ambulant O NN ROOT-NP-NP-PP-NP-NP-PP-NP-PP-NP-NN NONE NONE 0.25 on_exertion.ambulant Ambulation Exertion EXERTIONAL NONE NONE Exertion 0.9 0.0 NA
+and and O CC ROOT-NP-NP-PP-NP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.9 0.0 NA
+self self O NN ROOT-NP-NP-PP-NP-NP-PP-NP-PP-NP-NN NONE NONE 0.25 self_caring.morbidly_obese. Obesity Caring care_activity NONE NONE Caring 0.9 0.0 MyShift_ActivitiesOfDailyLiving
+caring.morbidly caring.morbidly O RB ROOT-NP-ADJP-RB NONE NONE 0.25 self_caring.morbidly_obese. Obesity Caring care_activity NONE NONE Caring 1.0 0.0 NA
+obese obese O JJ ROOT-NP-ADJP-JJ NONE NONE 0.25 self_caring.morbidly_obese. Obesity Caring care_activity NONE NONE Caring 1.0 0.0 PatientIntroduction_ChronicCondition
+. . O . ROOT-NP-. NONE NONE 0.5 self_caring.morbidly_obese. Obesity Caring care_activity NONE NONE Caring 1.0 0.0 NA
+
+
+
+
+

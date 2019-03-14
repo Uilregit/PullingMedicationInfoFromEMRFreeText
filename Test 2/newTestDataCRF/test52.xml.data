@@ -1,0 +1,77 @@
+in in O IN ROOT-FRAG-PP-IN NONE NONE 0.13 in_room_9, Present Within Room NONE NONE Within 0.0 0.0 NA
+room room O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 in_room_9, Present Within Room NONE NONE Within 0.0 0.0 PatientIntroduction_CurrentRoom
+9 9 NUMBER CD ROOT-FRAG-PP-NP-CD NONE NONE 0.13 in_room_9, Present Within Room NONE NONE Within 0.0 0.0 PatientIntroduction_CurrentRoom
+, , O , ROOT-FRAG-, NONE NONE 0.5 in_room_9, Present Within Room NONE NONE Within 0.1 0.0 NA
+meredith meredith PERSON NN ROOT-FRAG-NP-TMP-NP-NN NONE NONE 0.13 meredith_Arnold, NONE NONE NONE NONE NONE NONE 0.1 0.0 PatientIntroduction_GivenNames/Initials
+Arnold Arnold PERSON NNP ROOT-FRAG-NP-TMP-NP-NNP NONE NONE 0.13 meredith_Arnold, NONE NONE NONE NONE NONE NONE 0.1 0.0 PatientIntroduction_Lastname
+, , O , ROOT-FRAG-, NONE NONE 0.5 meredith_Arnold, NONE NONE NONE NONE NONE NONE 0.1 0.0 NA
+83 83 DURATION CD ROOT-FRAG-NP-NP-CD NONE NONE 0.13 83_yrs_old Old NONE NONE NONE NONE Old 0.1 0.0 PatientIntroduction_Ageinyears
+yrs yr DURATION NNS ROOT-FRAG-NP-NP-NNS NONE NONE 0.13 83_yrs_old Old NONE NONE NONE NONE Old 0.1 0.0 PatientIntroduction_Ageinyears
+old old DURATION JJ ROOT-FRAG-NP-ADJP-JJ NONE NONE 0.13 83_yrs_old Old NONE NONE NONE NONE Old 0.1 0.0 PatientIntroduction_Ageinyears
+with with O IN ROOT-FRAG-NP-PP-IN NONE NONE 0.25 with_intracranial_haemorrhage. Hemorrhage Intracranial Intracranial_Hemorrhages Hemorrhagic NONE Intracranial 0.2 0.0 NA
+intracranial intracranial O JJ ROOT-FRAG-NP-PP-NP-JJ NONE NONE 0.13 with_intracranial_haemorrhage. Hemorrhage Intracranial Intracranial_Hemorrhages Hemorrhagic NONE Intracranial 0.2 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+haemorrhage haemorrhage O NN ROOT-FRAG-NP-PP-NP-NN NONE NONE 0.13 with_intracranial_haemorrhage. Hemorrhage Intracranial Intracranial_Hemorrhages Hemorrhagic NONE Intracranial 0.2 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+. . O . ROOT-FRAG-. NONE NONE 1.0 with_intracranial_haemorrhage. Hemorrhage Intracranial Intracranial_Hemorrhages Hemorrhagic NONE Intracranial 0.2 0.0 NA
+
+Still still O RB ROOT-FRAG-PP-ADVP-RB NONE NONE 0.25 Still NONE NONE NONE NONE NONE NONE 0.2 0.0 NA
+with with O IN ROOT-FRAG-PP-IN NONE NONE 0.25 with_severe_headaches, Headache Headache_Severe Severe_(severity_modifier) NONE NONE Severe_(severity_modifier) 0.2 0.0 NA
+severe severe O JJ ROOT-FRAG-PP-NP-JJ NONE NONE 0.13 with_severe_headaches, Headache Headache_Severe Severe_(severity_modifier) NONE NONE Severe_(severity_modifier) 0.3 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+headaches headache O NNS ROOT-FRAG-PP-NP-NNS NONE NONE 0.13 with_severe_headaches, Headache Headache_Severe Severe_(severity_modifier) NONE NONE Severe_(severity_modifier) 0.3 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+, , O , ROOT-FRAG-PP-NP-, NONE NONE 0.5 with_severe_headaches, Headache Headache_Severe Severe_(severity_modifier) NONE NONE Severe_(severity_modifier) 0.3 0.0 NA
+nausea nausea O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 nausea Nausea Nausea_Adverse_Event NONE NONE NONE Nausea 0.3 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+and and O CC ROOT-FRAG-PP-NP-CC NONE NONE 0.38 and NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+vomiting vomiting O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 vomiting. Vomiting Vomiting_Adverse_Event NONE NONE NONE Vomiting 0.3 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+. . O . ROOT-FRAG-. NONE NONE 1.0 vomiting. Vomiting Vomiting_Adverse_Event NONE NONE NONE Vomiting 0.3 0.0 NA
+
+Ct ct O NN ROOT-S-NP-NN NONE NONE 0.13 Ct_scan_still_pending. X-Ray_Computed_Tomography CAT_Scan_Section_ID Radionuclide_Imaging Scanning Related_to_Cancer X-Ray_Computed_Tomography 0.4 0.0 Appointment/Procedure_Description
+scan scan O VB ROOT-S-VP-VB NONE NONE 0.13 Ct_scan_still_pending. X-Ray_Computed_Tomography CAT_Scan_Section_ID Radionuclide_Imaging Scanning Related_to_Cancer X-Ray_Computed_Tomography 0.4 0.0 Appointment/Procedure_Description
+still still O RB ROOT-S-VP-NP-ADJP-RB NONE NONE 0.25 Ct_scan_still_pending. X-Ray_Computed_Tomography CAT_Scan_Section_ID Radionuclide_Imaging Scanning Related_to_Cancer X-Ray_Computed_Tomography 0.4 0.0 Appointment/Procedure_Status
+pending pend O VBG ROOT-S-VP-NP-ADJP-VBG NONE NONE 0.13 Ct_scan_still_pending. X-Ray_Computed_Tomography CAT_Scan_Section_ID Radionuclide_Imaging Scanning Related_to_Cancer X-Ray_Computed_Tomography 0.4 0.0 Appointment/Procedure_Status
+. . O . ROOT-S-. NONE NONE 1.0 Ct_scan_still_pending. X-Ray_Computed_Tomography CAT_Scan_Section_ID Radionuclide_Imaging Scanning Related_to_Cancer X-Ray_Computed_Tomography 0.4 0.0 NA
+
+On on O IN ROOT-NP-NP-IN NONE NONE 0.25 On_regular_pain_relief, Pain Pain_relief Feeling_relief Pain_NOS_Adverse_Event Painless Regular 0.4 0.0 NA
+regular regular O JJ ROOT-NP-NP-JJ NONE NONE 0.13 On_regular_pain_relief, Pain Pain_relief Feeling_relief Pain_NOS_Adverse_Event Painless Regular 0.4 0.0 Medication_Dosage
+pain pain O NN ROOT-NP-NP-NN NONE NONE 0.13 On_regular_pain_relief, Pain Pain_relief Feeling_relief Pain_NOS_Adverse_Event Painless Regular 0.5 0.5 Medication_Medicine
+relief relief O NN ROOT-NP-NP-NN NONE NONE 0.13 On_regular_pain_relief, Pain Pain_relief Feeling_relief Pain_NOS_Adverse_Event Painless Regular 0.5 0.0 Medication_Medicine
+, , O , ROOT-NP-, NONE NONE 0.5 On_regular_pain_relief, Pain Pain_relief Feeling_relief Pain_NOS_Adverse_Event Painless Regular 0.5 0.0 NA
+diuretics diuretic O NNS ROOT-NP-NP-NNS NONE NONE 0.13 diuretics_bd. Diuretics NONE NONE NONE NONE Diuretics 0.5 0.5 Medication_Medicine
+bd bd O NN ROOT-NP-NP-NN NONE NONE 0.13 diuretics_bd. Diuretics NONE NONE NONE NONE Diuretics 0.5 0.0 Medication_Dosage
+. . O . ROOT-NP-. NONE NONE 1.0 diuretics_bd. Diuretics NONE NONE NONE NONE Diuretics 0.5 0.0 NA
+
+GCS gc O NNS ROOT-NP-NP-NNS NONE NONE 0.13 GCS NONE NONE NONE NONE NONE NONE 0.6 0.0 MyShift_OtherObservation
+of of O IN ROOT-NP-PP-IN NONE NONE 0.38 of_8. NONE NONE NONE NONE NONE NONE 0.6 0.0 MyShift_OtherObservation
+8 8 NUMBER CD ROOT-NP-PP-NP-CD NONE NONE 0.13 of_8. NONE NONE NONE NONE NONE NONE 0.6 0.0 MyShift_OtherObservation
+. . O . ROOT-NP-. NONE NONE 1.0 of_8. NONE NONE NONE NONE NONE NONE 0.6 0.0 NA
+
+Nih nih O NN ROOT-NP-NP-NN NONE NONE 0.13 Nih_stroke_scale Weight_measurement_scales Intellectual_scale Scaling Integumentary_scale Scalar United_States_National_Institutes_of_Health 0.6 0.0 MyShift_OtherObservation
+stroke stroke O NN ROOT-NP-NP-NN NONE NONE 0.13 Nih_stroke_scale Weight_measurement_scales Intellectual_scale Scaling Integumentary_scale Scalar United_States_National_Institutes_of_Health 0.6 0.0 MyShift_OtherObservation
+scale scale O NN ROOT-NP-NP-NN NONE NONE 0.13 Nih_stroke_scale Weight_measurement_scales Intellectual_scale Scaling Integumentary_scale Scalar United_States_National_Institutes_of_Health 0.6 0.0 MyShift_OtherObservation
+of of O IN ROOT-NP-PP-IN NONE NONE 0.38 of_13. NONE NONE NONE NONE NONE NONE 0.7 0.0 MyShift_OtherObservation
+13 13 NUMBER CD ROOT-NP-PP-NP-CD NONE NONE 0.13 of_13. NONE NONE NONE NONE NONE NONE 0.7 0.0 MyShift_OtherObservation
+. . O . ROOT-NP-. NONE NONE 1.0 of_13. NONE NONE NONE NONE NONE NONE 0.7 0.0 NA
+
+BGL bgl O NN ROOT-S-NP-NP-NN NONE NONE 0.13 BGL LRBA_gene NONE NONE NONE NONE LRBA_gene 0.7 0.0 MyShift_OtherObservation
+of of O IN ROOT-S-NP-PP-IN NONE NONE 0.38 of_10mg/dl.2 dextranase_activity NONE NONE NONE NONE dextranase_activity 0.7 0.0 MyShift_OtherObservation
+10mg/dl 10mg/dl O JJ ROOT-S-NP-PP-NP-JJ NONE NONE 0.13 of_10mg/dl.2 dextranase_activity NONE NONE NONE NONE dextranase_activity 0.7 0.0 MyShift_OtherObservation
+.2 .2 NUMBER NN ROOT-S-NP-PP-NP-NN NONE NONE 0.13 of_10mg/dl.2 dextranase_activity NONE NONE NONE NONE dextranase_activity 0.7 0.0 NA
+assist assist O VB ROOT-S-VP-VB NONE NONE 0.13 assist Helping_Behavior Assisting_(procedure) Assisted_(qualifier_value) NONE NONE Assisting_(procedure) 0.8 0.0 MyShift_RiskManagement
+for for O IN ROOT-S-VP-PP-PP-IN NONE NONE 0.25 for_adls Activities_of_Daily_Living_(activity) SGCA_gene NONE NONE NONE Activities_of_Daily_Living_(activity) 0.8 0.0 NA
+adls adl O NNS ROOT-S-VP-PP-PP-NP-NNS NONE NONE 0.13 for_adls Activities_of_Daily_Living_(activity) SGCA_gene NONE NONE NONE Activities_of_Daily_Living_(activity) 0.8 0.0 NA
+and and O CC ROOT-S-VP-PP-CC NONE NONE 0.38 and NONE NONE NONE NONE NONE NONE 0.8 0.0 NA
+on on O IN ROOT-S-VP-PP-PP-IN NONE NONE 0.25 on_thickened_fluids Body_Fluids Liquid_substance Body_Fluids_and_Substances Fluid_behavior fluid_-_substance Thickened 0.8 0.0 NA
+thickened thickened O JJ ROOT-S-VP-PP-PP-NP-NP-JJ NONE NONE 0.13 on_thickened_fluids Body_Fluids Liquid_substance Body_Fluids_and_Substances Fluid_behavior fluid_-_substance Thickened 0.8 0.0 MyShift_Input/Diet
+fluids fluid O NNS ROOT-S-VP-PP-PP-NP-NP-NNS NONE NONE 0.13 on_thickened_fluids Body_Fluids Liquid_substance Body_Fluids_and_Substances Fluid_behavior fluid_-_substance Thickened 0.9 0.0 MyShift_Input/Diet
+and and O CC ROOT-S-VP-PP-CC NONE NONE 0.38 and NONE NONE NONE NONE NONE NONE 0.9 0.0 NA
+minced minced O JJ ROOT-S-VP-PP-PP-NP-NP-JJ NONE NONE 0.13 minced_moist_diet. Diet Dietetics Moist Moisture NONE Moist 0.9 0.0 MyShift_Input/Diet
+moist moist O JJ ROOT-S-VP-PP-PP-NP-NP-JJ NONE NONE 0.13 minced_moist_diet. Diet Dietetics Moist Moisture NONE Moist 0.9 0.0 MyShift_Input/Diet
+diet diet O NN ROOT-S-VP-PP-PP-NP-NP-NN NONE NONE 0.13 minced_moist_diet. Diet Dietetics Moist Moisture NONE Moist 0.9 0.5 MyShift_Input/Diet
+. . O . ROOT-S-. NONE NONE 1.0 minced_moist_diet. Diet Dietetics Moist Moisture NONE Moist 0.9 0.0 NA
+
+For for O IN ROOT-FRAG-PP-IN NONE NONE 0.25 For_speech_pathologist_referral. Patient_referral Speech Medical_pathologist Speech/language_therapist Pathologist_-_RoleCode Speech 0.9 0.0 Future_Goal/TaskToBeCompleted/ExpectedOutcome
+speech speech O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 For_speech_pathologist_referral. Patient_referral Speech Medical_pathologist Speech/language_therapist Pathologist_-_RoleCode Speech 1.0 0.0 Future_Goal/TaskToBeCompleted/ExpectedOutcome
+pathologist pathologist O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 For_speech_pathologist_referral. Patient_referral Speech Medical_pathologist Speech/language_therapist Pathologist_-_RoleCode Speech 1.0 0.0 Future_Goal/TaskToBeCompleted/ExpectedOutcome
+referral referral O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.13 For_speech_pathologist_referral. Patient_referral Speech Medical_pathologist Speech/language_therapist Pathologist_-_RoleCode Speech 1.0 0.0 Future_Goal/TaskToBeCompleted/ExpectedOutcome
+. . O . ROOT-FRAG-. NONE NONE 1.0 For_speech_pathologist_referral. Patient_referral Speech Medical_pathologist Speech/language_therapist Pathologist_-_RoleCode Speech 1.0 0.0 NA
+
+
+

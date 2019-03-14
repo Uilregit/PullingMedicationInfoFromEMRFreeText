@@ -1,0 +1,50 @@
+In in O IN ROOT-FRAG-PP-IN NONE NONE 0.67 In_room_10, Present Within Room NONE NONE Within 0.0 0.0 NA
+room room O NN ROOT-FRAG-PP-NP-NN NONE NONE 0.33 In_room_10, Present Within Room NONE NONE Within 0.0 0.0 PatientIntroduction_CurrentRoom
+10 10 NUMBER CD ROOT-FRAG-PP-NP-CD NONE NONE 0.33 In_room_10, Present Within Room NONE NONE Within 0.1 0.0 PatientIntroduction_CurrentRoom
+, , O , ROOT-FRAG-, NONE NONE 1.0 In_room_10, Present Within Room NONE NONE Within 0.1 0.0 NA
+Naomi Naomi PERSON NNP ROOT-FRAG-NP-NP-NNP NONE NONE 0.33 Naomi_Hughes, Hughes_Indians NONE NONE NONE NONE Hughes_Indians 0.1 0.0 PatientIntroduction_GivenNames/Initials
+Hughes Hughes PERSON NNP ROOT-FRAG-NP-NP-NNP NONE NONE 0.33 Naomi_Hughes, Hughes_Indians NONE NONE NONE NONE Hughes_Indians 0.1 0.0 PatientIntroduction_Lastname
+, , O , ROOT-FRAG-, NONE NONE 1.0 Naomi_Hughes, Hughes_Indians NONE NONE NONE NONE Hughes_Indians 0.2 0.0 NA
+19 19 DURATION CD ROOT-FRAG-NP-ADJP-NP-CD NONE NONE 0.33 19_years_old Old year per_year NONE NONE year 0.2 0.0 PatientIntroduction_Ageinyears
+years year DURATION NNS ROOT-FRAG-NP-ADJP-NP-NNS NONE NONE 0.33 19_years_old Old year per_year NONE NONE year 0.2 0.0 PatientIntroduction_Ageinyears
+old old DURATION JJ ROOT-FRAG-NP-ADJP-JJ NONE NONE 0.33 19_years_old Old year per_year NONE NONE year 0.2 0.0 PatientIntroduction_Ageinyears
+under under O IN ROOT-FRAG-NP-ADJP-PP-IN NONE NONE 0.33 under_Dr_Edwards. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Doctor_-_Title 0.2 0.0 NA
+Dr Dr O NNP ROOT-FRAG-NP-ADJP-PP-NP-NNP NONE NONE 0.33 under_Dr_Edwards. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Doctor_-_Title 0.3 0.0 PatientIntroduction_UnderDr_Lastname
+Edwards Edwards PERSON NNP ROOT-FRAG-NP-ADJP-PP-NP-NNP NONE NONE 0.33 under_Dr_Edwards. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Doctor_-_Title 0.3 0.0 PatientIntroduction_UnderDr_Lastname
+. . O . ROOT-FRAG-. NONE NONE 1.0 under_Dr_Edwards. Physicians Delayed_Release_Dosage_Form Doctor_-_Title NONE NONE Doctor_-_Title 0.3 0.0 NA
+
+Came Came O NNP ROOT-NP-NP-NNP NONE NONE 0.33 Came NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+in in O IN ROOT-NP-PP-IN NONE NONE 0.67 in NONE NONE NONE NONE NONE NONE 0.3 0.0 NA
+with with O IN ROOT-NP-PP-PP-IN NONE NONE 1.0 with_cough Coughing Cough_Adverse_Event Does_cough NONE NONE Cough_Adverse_Event 0.4 0.0 NA
+cough cough O NN ROOT-NP-PP-PP-VP-VP-ADJP-NN NONE NONE 0.33 with_cough Coughing Cough_Adverse_Event Does_cough NONE NONE Cough_Adverse_Event 0.4 0.5 PatientIntroduction_AdmissionReason/Diagnosis
+with with O IN ROOT-NP-PP-PP-IN NONE NONE 1.0 with_blood Blood In_Blood peripheral_blood Bloods_(ethnic_group) Blood_Vessels In_Blood 0.4 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+blood blood O NN ROOT-NP-PP-PP-VP-VP-ADJP-PP-NP-NN NONE NONE 0.33 with_blood Blood In_Blood peripheral_blood Bloods_(ethnic_group) Blood_Vessels In_Blood 0.4 0.5 PatientIntroduction_AdmissionReason/Diagnosis
+for for O IN ROOT-NP-PP-PP-VP-VP-PP-IN NONE NONE 0.67 for_weeks, week /week NONE NONE NONE week 0.5 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+weeks week DURATION NNS ROOT-NP-PP-PP-VP-VP-PP-NP-NP-NNS NONE NONE 0.33 for_weeks, week /week NONE NONE NONE week 0.5 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+, , O , ROOT-NP-PP-PP-VP-VP-PP-NP-, NONE NONE 1.0 for_weeks, week /week NONE NONE NONE week 0.5 0.0 NA
+high high O JJ ROOT-NP-PP-PP-VP-VP-PP-NP-NP-NP-JJ NONE NONE 0.33 high_fever Fever FEVER_HIGH_(finding) High Abnormally_high Value_Above_Reference_Range High 0.5 0.5 PatientIntroduction_AdmissionReason/Diagnosis
+fever fever O NN ROOT-NP-PP-PP-VP-VP-PP-NP-NP-NP-NN NONE NONE 0.33 high_fever Fever FEVER_HIGH_(finding) High Abnormally_high Value_Above_Reference_Range High 0.5 0.5 PatientIntroduction_AdmissionReason/Diagnosis
+for for O IN ROOT-NP-PP-PP-VP-VP-PP-IN NONE NONE 0.67 for_2_days day 2_Days /day +2 2+_Score +2 0.6 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+2 2 DURATION CD ROOT-NP-PP-PP-VP-VP-PP-NP-NP-PP-NP-CD NONE NONE 0.33 for_2_days day 2_Days /day +2 2+_Score +2 0.6 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+days day DURATION NNS ROOT-NP-PP-PP-VP-VP-PP-NP-NP-PP-NP-NNS NONE NONE 0.33 for_2_days day 2_Days /day +2 2+_Score +2 0.6 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+and and O CC ROOT-NP-PP-PP-VP-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.6 0.0 NA
+diagnosed diagnose O VBN ROOT-NP-PP-PP-VP-VP-VBN NONE NONE 0.33 diagnosed Diagnosis NONE NONE NONE NONE Diagnosis 0.7 0.0 NA
+with with O IN ROOT-NP-PP-PP-IN NONE NONE 1.0 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.7 0.0 NA
+pneumonia pneumonia O NN ROOT-NP-PP-PP-VP-VP-PP-NP-NN NONE NONE 0.33 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.7 0.0 PatientIntroduction_AdmissionReason/Diagnosis
+. . O . ROOT-NP-. NONE NONE 1.0 with_pneumonia. Pneumonia Lung Entire_lung Pulmonary:-:Point_in_time:^Patient:- Pulmonary_(qualifier_value) Pneumonia 0.7 0.0 NA
+
+She she O PRP ROOT-S-S-NP-PRP NONE NONE 0.67 She NONE NONE NONE NONE NONE NONE 0.7 0.0 PatientIntroduction_Gender
+is be O VBZ ROOT-S-S-VP-VBZ NONE NONE 0.67 is NONE NONE NONE NONE NONE NONE 0.8 0.0 NA
+on on O IN ROOT-S-S-VP-PP-IN NONE NONE 0.33 on_iv_antibiotics Antibiotics NONE NONE NONE NONE Antibiotics 0.8 0.0 NA
+iv iv O NN ROOT-S-S-VP-PP-NP-NN NONE NONE 0.33 on_iv_antibiotics Antibiotics NONE NONE NONE NONE Antibiotics 0.8 0.0 Medication_Medicine
+antibiotics antibiotic O NNS ROOT-S-S-VP-PP-NP-NNS NONE NONE 0.33 on_iv_antibiotics Antibiotics NONE NONE NONE NONE Antibiotics 0.8 0.5 Medication_Medicine
+and and O CC ROOT-S-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 0.8 0.0 NA
+she she O PRP ROOT-S-S-NP-PRP NONE NONE 0.67 she NONE NONE NONE NONE NONE NONE 0.9 0.0 PatientIntroduction_Gender
+is be O VBZ ROOT-S-S-VP-VBZ NONE NONE 0.67 is NONE NONE NONE NONE NONE NONE 0.9 0.0 NA
+self self O NN ROOT-S-S-VP-NP-NN NONE NONE 0.33 self_caring Caring care_activity NONE NONE NONE Caring 0.9 0.0 MyShift_ActivitiesOfDailyLiving
+caring caring O NN ROOT-S-S-VP-NP-NN NONE NONE 0.33 self_caring Caring care_activity NONE NONE NONE Caring 0.9 0.0 MyShift_ActivitiesOfDailyLiving
+and and O CC ROOT-S-CC NONE NONE 1.0 and NONE NONE NONE NONE NONE NONE 1.0 0.0 NA
+ambulant ambulant O NN ROOT-S-S-VP-NP-NN NONE NONE 0.33 ambulant. Ambulation NONE NONE NONE NONE Ambulation 1.0 0.0 MyShift_ActivitiesOfDailyLiving
+. . O . ROOT-S-. NONE NONE 1.0 ambulant. Ambulation NONE NONE NONE NONE Ambulation 1.0 0.0 NA
+
+
