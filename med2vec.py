@@ -1,23 +1,31 @@
 import pandas as pd
 from gensim.models import Word2Vec
+import csv
+import os
 
-data = pd.read_csv("TokenizedAll.csv", usecols=[
-                   1], names=["id", "text"], skiprows=1)
 
-common_tokens = ["mg", "on", "daily", "day", "for",
-                 "qd", "regular", "medication", "prn", "with", "bid", "relief", "ongoing", "oral", "give", "of", "at", "one", "strict", "fluid", "iv", "take", "diet", "therapy"]
+# Data initialization
+data = pd.read_csv("TokenizedAll.csv",usecols=[1], names=["id", "text"], skiprows=1)
+common_tokens = ["mg", "on", "daily", "day", "for", "qd", "regular", "medication", "prn", "with", "bid",
+                 "relief", "ongoing", "oral", "give", "of", "at", "one", "strict", "fluid", "iv", "take", "diet", "therapy"]
 
+# Model loading
 model = Word2Vec.load("word2vec.model")
+
+# Ensure file doesn't exist
+os.remove("med2vec_output.csv")
 
 
 def process_doc(note_set, offset, threshold):
-    final = list()
-
+    count = 0
     for note in note_set["text"]:
         meds = find_meds(note, offset, threshold)
-        final.append(meds)
-
-    return final
+        meds_to_string = ",".join(meds)
+        with open('med2vec_output.csv', mode='a') as med2vec_output:
+            writer = csv.writer(med2vec_output, delimiter=',',
+                                quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow([str(count), meds_to_string])
+        count += 1
 
 
 def find_meds(text, offset, threshold):
@@ -40,19 +48,19 @@ def calculate_similar_meds(tokens, current_index, offset, threshold):
     search_start = min_start(current_index, offset)
     search_end = max_end(current_index, offset, len(tokens))
 
-    identified_meds = []
+    meds = []
 
     for i in range(search_start, search_end):
         try:
             similarity_dist = model.similarity(
                 tokens[i], tokens[current_index])
             if similarity_dist > threshold:
-                identified_meds.append(tokens[i])
+                meds.append(tokens[i])
         except Exception:
             continue
 
-    identified_meds = [x for x in identified_meds if x not in common_tokens]
-    return identified_meds
+    meds = [x for x in meds if x not in common_tokens]
+    return meds
 
 
 def min_start(index, offset):
@@ -70,4 +78,4 @@ def max_end(index, offset, length):
 
 
 if __name__ == "__main__":
-    print(process_doc(data, 3, 0.8))
+    process_doc(data, 2, 0.8)
