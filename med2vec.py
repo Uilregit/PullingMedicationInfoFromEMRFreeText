@@ -3,25 +3,35 @@ from gensim.models import Word2Vec
 import csv
 import os
 
-
 # Data initialization
-data = pd.read_csv("TokenizedAll.csv",usecols=[1], names=["id", "text"], skiprows=1)
-common_tokens = ["mg", "on", "daily", "day", "for", "qd", "regular", "medication", "prn", "with", "bid",
-                 "relief", "ongoing", "oral", "give", "of", "at", "one", "strict", "fluid", "iv", "take", "diet", "therapy"]
+data = pd.read_csv("DataAll.csv",usecols=[0,1,2], names=["id","text","token_text"], skiprows=1, encoding="iso-8859-1")
+train_data = data.sample(frac=0.7, random_state=27)
+df = pd.concat([data, train_data])
+test_data = df.drop_duplicates(keep=False)
+
+# test_data.to_csv("test_data.csv")
+
+# Token identification
+def get_common_tokens(top_n):
+    neighbour_hood = pd.read_csv("NeighbourhoodCounts.csv", usecols=[0], nrows=top_n, names=["tokens"])
+    tokens = neighbour_hood["tokens"].tolist()
+    return tokens
+
+common_tokens = get_common_tokens(25)
 
 # Model loading
 model = Word2Vec.load("word2vec.model")
 
 # Ensure file doesn't exist
-os.remove("med2vec_output.csv")
+os.remove("med2vec_results.csv")
 
-
+# Calulating drugs
 def process_doc(note_set, offset, threshold):
     count = 0
-    for note in note_set["text"]:
+    for note in note_set["token_text"]:
         meds = find_meds(note, offset, threshold)
         meds_to_string = ",".join(meds)
-        with open('med2vec_output.csv', mode='a') as med2vec_output:
+        with open('med2vec_results.csv', mode='a') as med2vec_output:
             writer = csv.writer(med2vec_output, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writerow([str(count), meds_to_string])
