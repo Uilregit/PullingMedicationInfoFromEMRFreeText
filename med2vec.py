@@ -27,15 +27,16 @@ os.remove("med2vec_results.csv")
 
 # Calulating drugs
 def process_doc(note_set, offset, threshold):
-    count = 0
-    for note in note_set["token_text"]:
-        meds = find_meds(note, offset, threshold)
+    for row_num in range(note_set.shape[0]):
+        note_text = note_set.iloc[row_num, 2]
+        note_id = note_set.iloc[row_num, 0]
+
+        meds = find_meds(note_text, offset, threshold)
         meds_to_string = ",".join(meds)
         with open('med2vec_results.csv', mode='a') as med2vec_output:
             writer = csv.writer(med2vec_output, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow([str(count), meds_to_string])
-        count += 1
+            writer.writerow([note_id, meds_to_string])
 
 
 def find_meds(text, offset, threshold):
@@ -88,4 +89,4 @@ def max_end(index, offset, length):
 
 
 if __name__ == "__main__":
-    process_doc(data, 2, 0.8)
+    process_doc(test_data, 2, 0.8)
