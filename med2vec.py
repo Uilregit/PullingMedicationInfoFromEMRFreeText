@@ -23,7 +23,7 @@ common_tokens = get_common_tokens(25)
 model = Word2Vec.load("word2vec.model")
 
 # Ensure file doesn't exist
-os.remove("med2vec_results.csv")
+# os.remove("med2vec_results_t1.csv")
 
 # Calulating drugs
 def process_doc(note_set, offset, threshold):
@@ -33,7 +33,7 @@ def process_doc(note_set, offset, threshold):
 
         meds = find_meds(note_text, offset, threshold)
         meds_to_string = ",".join(meds)
-        with open('med2vec_results.csv', mode='a') as med2vec_output:
+        with open('med2vec_results_n6.csv', mode='a') as med2vec_output:
             writer = csv.writer(med2vec_output, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writerow([note_id, meds_to_string])
@@ -89,4 +89,4 @@ def max_end(index, offset, length):
 
 
 if __name__ == "__main__":
-    process_doc(test_data, 2, 0.8)
+    process_doc(test_data, 6, 0.8)
